@@ -1,5 +1,5 @@
 import crypto from "crypto";
-import { kv } from "@vercel/kv";
+import { kv } from "../lib/kv.js";
 import { sendMessage, sendVideo } from "../lib/telegram.js";
 import { fetchVideoContent } from "../lib/openrouter.js";
 
