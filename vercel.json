@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/telegram-webhook.js": {
+      "maxDuration": 30
+    },
+    "api/video-callback.js": {
+      "maxDuration": 60
+    }
+  }
+}

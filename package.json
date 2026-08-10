@@ -1,0 +1,13 @@
+{
+  "name": "telegram-openrouter-video-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "set-webhook": "node scripts/set-webhook.mjs",
+    "delete-webhook": "node scripts/delete-webhook.mjs"
+  },
+  "dependencies": {
+    "@vercel/kv": "^2.0.0"
+  }
+}
