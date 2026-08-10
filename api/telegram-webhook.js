@@ -1,4 +1,4 @@
-import { kv } from "@vercel/kv";
+import { kv } from "../lib/kv.js";
 import { sendMessage, getFileUrl } from "../lib/telegram.js";
 import { submitVideoJob } from "../lib/openrouter.js";
 
