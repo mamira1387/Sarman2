@@ -25,9 +25,10 @@ vercel
 ```
 یا این پوشه را روی گیت‌هاب پوش کنید و از داشبورد Vercel ایمپورت کنید.
 
-### ۲. افزودن Vercel KV
-در داشبورد پروژه → تب **Storage** → **Create Database** → **KV** را بسازید و به پروژه وصل کنید.
-این کار متغیرهای `KV_REST_API_URL` و `KV_REST_API_TOKEN` را خودکار اضافه می‌کند.
+### ۲. افزودن دیتابیس Redis (Upstash)
+Vercel KV مستقل دیگر وجود ندارد؛ به‌جایش:
+در داشبورد پروژه → تب **Storage** → بخش **Marketplace Database Providers** → روی **Upstash** بزنید → گزینه‌ی **Redis** را بسازید و به پروژه وصل کنید.
+این کار متغیرهای `KV_REST_API_URL` و `KV_REST_API_TOKEN` را خودکار به پروژه اضافه می‌کند.
 
 ### ۳. تنظیم متغیرهای محیطی
 در تب **Settings → Environment Variables** پروژه، مقادیر فایل `.env.example` را وارد کنید:
